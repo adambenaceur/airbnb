@@ -4,6 +4,7 @@ import {useRouter} from 'next/dist/client/router';
 import {format} from "date-fns";
 import InfoCard from '../components/InfoCard';
 import Map from '../components/Map';
+import Head from 'next/head'
 
 function Search({searchResults}) {
   const router = useRouter();
@@ -15,7 +16,14 @@ function Search({searchResults}) {
 
 
   return (
+    
     <div >
+
+      <Head>
+        <title>Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & experiences  </title>
+        <link rel="icon" href="/bnb-logo.png" className='rounded-2xl' />
+      </Head>
+      
         
         <Header placeholder={`${location} | ${range} | ${noOfGuests} guests`}/>
 
@@ -50,7 +58,7 @@ function Search({searchResults}) {
                 </div>
             </section>
 
-            <section className='hidden xl:inline-flex xl:min-w-[600px] h-auto'>
+            <section className='hidden xl:inline-flex xl:min-w-[600px] '>
               <Map searchResults={searchResults}/>
             </section>
         </main>

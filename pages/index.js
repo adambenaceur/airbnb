@@ -14,7 +14,7 @@ export default function Home({exploreData, cardsData}) {
     <div className="">
       <Head>
         <title>Airbnb: Vacation Rentals, Cabins, Beach Houses, Unique Homes & experiences  </title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/bnb-logo.png" className='rounded-2xl' />
       </Head>
       
 

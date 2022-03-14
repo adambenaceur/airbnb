@@ -4,8 +4,10 @@
 to run: download repository and run ``` npm run dev ``` in the root folder
 
 # overview
-<img src="https://github.com/adambenaceur/airbnb-clone/blob/master/public/home-screen.gif" width="700" />
-<img src="https://github.com/adambenaceur/airbnb-clone/blob/master/public/search.gif" width="700" />
+
+
+<img src="https://github.com/adambenaceur/airbnb-clone/blob/master/public/home-screen.gif" width="700" /> ```page 1```
+<img src="https://github.com/adambenaceur/airbnb-clone/blob/master/public/search.gif" width="700" /> ```  page 2 ```
 
 # search
 

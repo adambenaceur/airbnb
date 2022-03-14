@@ -18,7 +18,7 @@ to run: download repository and run command ``` npm run dev ``` in the root fold
 # map-box functionality
 ```Map-box``` : location map data api tool to locate air-bnb locations using (longitude, latitude). 
 Current function is only for visual asthetics.
-Future iteration should look at implementation of dynamic datasets into map-box api. Current application using static dataset. See json files for more info 
+Future iteration should look at implementation of dynamic datasets into map-box api. Current application using static dataset. See ```airbnb-clone/public//search-data.json``` files for more info on dataset.
 
 <img src="https://github.com/adambenaceur/airbnb-clone/blob/master/public/map.gif" width="400" />
 

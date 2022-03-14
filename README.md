@@ -3,27 +3,29 @@
 
 to run: download repository and run command ``` npm run dev ``` in the root folder ```/airbnb-clone```
 
-# overview
+# Overview
 
 
 <img src="https://github.com/adambenaceur/airbnb-clone/blob/master/public/home-screen.gif" width="700" /> ```page 1```
 <img src="https://github.com/adambenaceur/airbnb-clone/blob/master/public/search.gif" width="700" /> ```  page 2 ```
 
-# search functionality
+# Search Functionality
 
 ```React-Date-Range```: A date library agnostic React component for choosing dates and date ranges. Uses ```date-fns``` for date operations.
 
 <img src="https://github.com/adambenaceur/airbnb-clone/blob/master/public/search-calander.gif" width="600" />
 
-# map-box functionality
-```Map-box``` : location map data api tool to locate air-bnb locations using (longitude, latitude). 
-Current function is only for visual asthetics.
-Future iteration should look at implementation of dynamic datasets into map-box api. Current application using static dataset. See ```airbnb-clone/public//search-data.json``` files for more info on dataset.
+# Map-box Functionality
+* ```Map-box``` : location map data api tool to locate air-bnb locations using (longitude, latitude).
+* Account required to implement map-box function.
+* Current function is only for visual asthetics.
+* Current application using static dataset. See ```airbnb-clone/public/search-data.json``` for more info on dataset.
+* Future iteration should look at implementation of dynamic dataset into map-box api. 
 
 <img src="https://github.com/adambenaceur/airbnb-clone/blob/master/public/map.gif" width="400" />
 
 
-# dependencies
+# Dependencies
 ```
     "@badrap/bar-of-progress": "^0.1.2",
     "@heroicons/react": "^1.0.5",

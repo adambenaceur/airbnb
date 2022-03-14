@@ -1,5 +1,5 @@
-# airbnb
-Next/Js React/Js front-end replica of airbnb
+# <img src="https://github.com/adambenaceur/airbnb-clone/blob/master/public/airbnb-logo.png" width="200" />
+```Next/Js``` ```React/Js``` front-end replica of airbnb
 
 to run: download repository and run ``` npm run dev ``` in the root folder
 
